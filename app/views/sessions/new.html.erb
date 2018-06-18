@@ -1,0 +1,12 @@
+<h1>Login Fool</h1>
+
+<%= form_for :session do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+  <br>
+  <%= f.submit %>
+
+<% end %>
